@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46AC27AA19A35652008E1FF2 /* Constantable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC279719A35652008E1FF2 /* Constantable.swift */; };
+		46AC27AB19A35652008E1FF2 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC279919A35652008E1FF2 /* Attribute.swift */; };
+		46AC27AC19A35652008E1FF2 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC279A19A35652008E1FF2 /* Constraint.swift */; };
+		46AC27AD19A35652008E1FF2 /* Constraintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC279B19A35652008E1FF2 /* Constraintable.swift */; };
+		46AC27AE19A35652008E1FF2 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC279C19A35652008E1FF2 /* Expression.swift */; };
+		46AC27AF19A35652008E1FF2 /* Array+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC279E19A35652008E1FF2 /* Array+Subscript.swift */; };
+		46AC27B019A35652008E1FF2 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC279F19A35652008E1FF2 /* Direction.swift */; };
+		46AC27B119A35652008E1FF2 /* NSLayoutConstraint+ConstraintsWithVisualFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27A019A35652008E1FF2 /* NSLayoutConstraint+ConstraintsWithVisualFormat.swift */; };
+		46AC27B219A35652008E1FF2 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27A119A35652008E1FF2 /* Operators.swift */; };
+		46AC27B319A35652008E1FF2 /* Predicatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27A219A35652008E1FF2 /* Predicatable.swift */; };
+		46AC27B419A35652008E1FF2 /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27A319A35652008E1FF2 /* Predicate.swift */; };
+		46AC27B519A35652008E1FF2 /* Sibling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27A419A35652008E1FF2 /* Sibling.swift */; };
+		46AC27B619A35652008E1FF2 /* SiblingConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27A519A35652008E1FF2 /* SiblingConstraint.swift */; };
+		46AC27B719A35652008E1FF2 /* Superview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27A619A35652008E1FF2 /* Superview.swift */; };
+		46AC27B819A35652008E1FF2 /* SuperviewConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27A719A35652008E1FF2 /* SuperviewConstraint.swift */; };
+		46AC27B919A35652008E1FF2 /* UIView+AddConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27A819A35652008E1FF2 /* UIView+AddConstraints.swift */; };
+		46AC27BA19A35652008E1FF2 /* VFLConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27A919A35652008E1FF2 /* VFLConstraint.swift */; };
+		46AC27C819A356AD008E1FF2 /* AssertConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27BB19A356AD008E1FF2 /* AssertConstraints.swift */; };
+		46AC27C919A356AD008E1FF2 /* AttributeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27BD19A356AD008E1FF2 /* AttributeTests.swift */; };
+		46AC27CA19A356AD008E1FF2 /* ConstraintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27BE19A356AD008E1FF2 /* ConstraintTests.swift */; };
+		46AC27CB19A356AD008E1FF2 /* ExpressionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27BF19A356AD008E1FF2 /* ExpressionTests.swift */; };
+		46AC27CC19A356AD008E1FF2 /* CommonCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27C119A356AD008E1FF2 /* CommonCaseTests.swift */; };
+		46AC27CE19A356AD008E1FF2 /* PartialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27C319A356AD008E1FF2 /* PartialTests.swift */; };
+		46AC27CF19A356AD008E1FF2 /* PredicateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27C419A356AD008E1FF2 /* PredicateTests.swift */; };
+		46AC27D019A356AD008E1FF2 /* SiblingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27C519A356AD008E1FF2 /* SiblingTests.swift */; };
+		46AC27D119A356AD008E1FF2 /* SubscriptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27C619A356AD008E1FF2 /* SubscriptTests.swift */; };
+		46AC27D219A356AD008E1FF2 /* SuperviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC27C719A356AD008E1FF2 /* SuperviewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46AC27D419A35873008E1FF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46AC275319A35441008E1FF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46AC275B19A35441008E1FF2;
+			remoteInfo = VFLToolbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46AC275C19A35441008E1FF2 /* VFLToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VFLToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46AC276019A35441008E1FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46AC276719A35441008E1FF2 /* VFLToolboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VFLToolboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46AC276A19A35441008E1FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46AC279719A35652008E1FF2 /* Constantable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constantable.swift; sourceTree = "<group>"; };
+		46AC279919A35652008E1FF2 /* Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
+		46AC279A19A35652008E1FF2 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		46AC279B19A35652008E1FF2 /* Constraintable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraintable.swift; sourceTree = "<group>"; };
+		46AC279C19A35652008E1FF2 /* Expression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		46AC279E19A35652008E1FF2 /* Array+Subscript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Subscript.swift"; sourceTree = "<group>"; };
+		46AC279F19A35652008E1FF2 /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		46AC27A019A35652008E1FF2 /* NSLayoutConstraint+ConstraintsWithVisualFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+ConstraintsWithVisualFormat.swift"; sourceTree = "<group>"; };
+		46AC27A119A35652008E1FF2 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		46AC27A219A35652008E1FF2 /* Predicatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predicatable.swift; sourceTree = "<group>"; };
+		46AC27A319A35652008E1FF2 /* Predicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predicate.swift; sourceTree = "<group>"; };
+		46AC27A419A35652008E1FF2 /* Sibling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sibling.swift; sourceTree = "<group>"; };
+		46AC27A519A35652008E1FF2 /* SiblingConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiblingConstraint.swift; sourceTree = "<group>"; };
+		46AC27A619A35652008E1FF2 /* Superview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Superview.swift; sourceTree = "<group>"; };
+		46AC27A719A35652008E1FF2 /* SuperviewConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperviewConstraint.swift; sourceTree = "<group>"; };
+		46AC27A819A35652008E1FF2 /* UIView+AddConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AddConstraints.swift"; sourceTree = "<group>"; };
+		46AC27A919A35652008E1FF2 /* VFLConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VFLConstraint.swift; sourceTree = "<group>"; };
+		46AC27BB19A356AD008E1FF2 /* AssertConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssertConstraints.swift; sourceTree = "<group>"; };
+		46AC27BD19A356AD008E1FF2 /* AttributeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeTests.swift; sourceTree = "<group>"; };
+		46AC27BE19A356AD008E1FF2 /* ConstraintTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintTests.swift; sourceTree = "<group>"; };
+		46AC27BF19A356AD008E1FF2 /* ExpressionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressionTests.swift; sourceTree = "<group>"; };
+		46AC27C119A356AD008E1FF2 /* CommonCaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonCaseTests.swift; sourceTree = "<group>"; };
+		46AC27C219A356AD008E1FF2 /* Measurements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Measurements.swift; sourceTree = "<group>"; };
+		46AC27C319A356AD008E1FF2 /* PartialTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartialTests.swift; sourceTree = "<group>"; };
+		46AC27C419A356AD008E1FF2 /* PredicateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PredicateTests.swift; sourceTree = "<group>"; };
+		46AC27C519A356AD008E1FF2 /* SiblingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiblingTests.swift; sourceTree = "<group>"; };
+		46AC27C619A356AD008E1FF2 /* SubscriptTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptTests.swift; sourceTree = "<group>"; };
+		46AC27C719A356AD008E1FF2 /* SuperviewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperviewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46AC275819A35441008E1FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46AC276419A35441008E1FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46AC275219A35441008E1FF2 = {
+			isa = PBXGroup;
+			children = (
+				46AC275E19A35441008E1FF2 /* VFLToolbox */,
+				46AC276819A35441008E1FF2 /* VFLToolboxTests */,
+				46AC275D19A35441008E1FF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46AC275D19A35441008E1FF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46AC275C19A35441008E1FF2 /* VFLToolbox.framework */,
+				46AC276719A35441008E1FF2 /* VFLToolboxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46AC275E19A35441008E1FF2 /* VFLToolbox */ = {
+			isa = PBXGroup;
+			children = (
+				46AC279719A35652008E1FF2 /* Constantable.swift */,
+				46AC279819A35652008E1FF2 /* Formula */,
+				46AC279D19A35652008E1FF2 /* VFL */,
+				46AC276019A35441008E1FF2 /* Info.plist */,
+			);
+			path = VFLToolbox;
+			sourceTree = "<group>";
+		};
+		46AC276819A35441008E1FF2 /* VFLToolboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				46AC27BB19A356AD008E1FF2 /* AssertConstraints.swift */,
+				46AC27BC19A356AD008E1FF2 /* Formula */,
+				46AC27C019A356AD008E1FF2 /* VFL */,
+				46AC276A19A35441008E1FF2 /* Info.plist */,
+			);
+			path = VFLToolboxTests;
+			sourceTree = "<group>";
+		};
+		46AC279819A35652008E1FF2 /* Formula */ = {
+			isa = PBXGroup;
+			children = (
+				46AC279919A35652008E1FF2 /* Attribute.swift */,
+				46AC279C19A35652008E1FF2 /* Expression.swift */,
+				46AC279A19A35652008E1FF2 /* Constraint.swift */,
+				46AC279B19A35652008E1FF2 /* Constraintable.swift */,
+			);
+			path = Formula;
+			sourceTree = "<group>";
+		};
+		46AC279D19A35652008E1FF2 /* VFL */ = {
+			isa = PBXGroup;
+			children = (
+				46AC279F19A35652008E1FF2 /* Direction.swift */,
+				46AC27A319A35652008E1FF2 /* Predicate.swift */,
+				46AC27A219A35652008E1FF2 /* Predicatable.swift */,
+				46AC27A919A35652008E1FF2 /* VFLConstraint.swift */,
+				46AC27A619A35652008E1FF2 /* Superview.swift */,
+				46AC27A719A35652008E1FF2 /* SuperviewConstraint.swift */,
+				46AC27A419A35652008E1FF2 /* Sibling.swift */,
+				46AC27A519A35652008E1FF2 /* SiblingConstraint.swift */,
+				46AC279E19A35652008E1FF2 /* Array+Subscript.swift */,
+				46AC27A119A35652008E1FF2 /* Operators.swift */,
+				46AC27A019A35652008E1FF2 /* NSLayoutConstraint+ConstraintsWithVisualFormat.swift */,
+				46AC27A819A35652008E1FF2 /* UIView+AddConstraints.swift */,
+			);
+			path = VFL;
+			sourceTree = "<group>";
+		};
+		46AC27BC19A356AD008E1FF2 /* Formula */ = {
+			isa = PBXGroup;
+			children = (
+				46AC27BD19A356AD008E1FF2 /* AttributeTests.swift */,
+				46AC27BF19A356AD008E1FF2 /* ExpressionTests.swift */,
+				46AC27BE19A356AD008E1FF2 /* ConstraintTests.swift */,
+			);
+			path = Formula;
+			sourceTree = "<group>";
+		};
+		46AC27C019A356AD008E1FF2 /* VFL */ = {
+			isa = PBXGroup;
+			children = (
+				46AC27C419A356AD008E1FF2 /* PredicateTests.swift */,
+				46AC27C719A356AD008E1FF2 /* SuperviewTests.swift */,
+				46AC27C519A356AD008E1FF2 /* SiblingTests.swift */,
+				46AC27C619A356AD008E1FF2 /* SubscriptTests.swift */,
+				46AC27C319A356AD008E1FF2 /* PartialTests.swift */,
+				46AC27C119A356AD008E1FF2 /* CommonCaseTests.swift */,
+				46AC27C219A356AD008E1FF2 /* Measurements.swift */,
+			);
+			path = VFL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46AC275919A35441008E1FF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46AC275B19A35441008E1FF2 /* VFLToolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46AC276F19A35441008E1FF2 /* Build configuration list for PBXNativeTarget "VFLToolbox" */;
+			buildPhases = (
+				46AC275719A35441008E1FF2 /* Sources */,
+				46AC275819A35441008E1FF2 /* Frameworks */,
+				46AC275919A35441008E1FF2 /* Headers */,
+				46AC275A19A35441008E1FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VFLToolbox;
+			productName = VFLToolbox;
+			productReference = 46AC275C19A35441008E1FF2 /* VFLToolbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46AC276619A35441008E1FF2 /* VFLToolboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46AC277219A35441008E1FF2 /* Build configuration list for PBXNativeTarget "VFLToolboxTests" */;
+			buildPhases = (
+				46AC276319A35441008E1FF2 /* Sources */,
+				46AC276419A35441008E1FF2 /* Frameworks */,
+				46AC276519A35441008E1FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46AC27D519A35873008E1FF2 /* PBXTargetDependency */,
+			);
+			name = VFLToolboxTests;
+			productName = VFLToolboxTests;
+			productReference = 46AC276719A35441008E1FF2 /* VFLToolboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46AC275319A35441008E1FF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Solodovnykov, Ievgen";
+				TargetAttributes = {
+					46AC275B19A35441008E1FF2 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					46AC276619A35441008E1FF2 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 46AC275619A35441008E1FF2 /* Build configuration list for PBXProject "VFLToolbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46AC275219A35441008E1FF2;
+			productRefGroup = 46AC275D19A35441008E1FF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46AC275B19A35441008E1FF2 /* VFLToolbox */,
+				46AC276619A35441008E1FF2 /* VFLToolboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46AC275A19A35441008E1FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46AC276519A35441008E1FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46AC275719A35441008E1FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46AC27B419A35652008E1FF2 /* Predicate.swift in Sources */,
+				46AC27B019A35652008E1FF2 /* Direction.swift in Sources */,
+				46AC27AD19A35652008E1FF2 /* Constraintable.swift in Sources */,
+				46AC27AC19A35652008E1FF2 /* Constraint.swift in Sources */,
+				46AC27B719A35652008E1FF2 /* Superview.swift in Sources */,
+				46AC27B519A35652008E1FF2 /* Sibling.swift in Sources */,
+				46AC27AB19A35652008E1FF2 /* Attribute.swift in Sources */,
+				46AC27AA19A35652008E1FF2 /* Constantable.swift in Sources */,
+				46AC27AE19A35652008E1FF2 /* Expression.swift in Sources */,
+				46AC27AF19A35652008E1FF2 /* Array+Subscript.swift in Sources */,
+				46AC27B819A35652008E1FF2 /* SuperviewConstraint.swift in Sources */,
+				46AC27B919A35652008E1FF2 /* UIView+AddConstraints.swift in Sources */,
+				46AC27B619A35652008E1FF2 /* SiblingConstraint.swift in Sources */,
+				46AC27B319A35652008E1FF2 /* Predicatable.swift in Sources */,
+				46AC27B119A35652008E1FF2 /* NSLayoutConstraint+ConstraintsWithVisualFormat.swift in Sources */,
+				46AC27BA19A35652008E1FF2 /* VFLConstraint.swift in Sources */,
+				46AC27B219A35652008E1FF2 /* Operators.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46AC276319A35441008E1FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46AC27C919A356AD008E1FF2 /* AttributeTests.swift in Sources */,
+				46AC27D219A356AD008E1FF2 /* SuperviewTests.swift in Sources */,
+				46AC27C819A356AD008E1FF2 /* AssertConstraints.swift in Sources */,
+				46AC27CC19A356AD008E1FF2 /* CommonCaseTests.swift in Sources */,
+				46AC27CF19A356AD008E1FF2 /* PredicateTests.swift in Sources */,
+				46AC27CA19A356AD008E1FF2 /* ConstraintTests.swift in Sources */,
+				46AC27D019A356AD008E1FF2 /* SiblingTests.swift in Sources */,
+				46AC27CB19A356AD008E1FF2 /* ExpressionTests.swift in Sources */,
+				46AC27CE19A356AD008E1FF2 /* PartialTests.swift in Sources */,
+				46AC27D119A356AD008E1FF2 /* SubscriptTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46AC27D519A35873008E1FF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46AC275B19A35441008E1FF2 /* VFLToolbox */;
+			targetProxy = 46AC27D419A35873008E1FF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46AC276D19A35441008E1FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46AC276E19A35441008E1FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46AC277019A35441008E1FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VFLToolbox/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46AC277119A35441008E1FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VFLToolbox/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		46AC277319A35441008E1FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VFLToolboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46AC277419A35441008E1FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VFLToolboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46AC275619A35441008E1FF2 /* Build configuration list for PBXProject "VFLToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46AC276D19A35441008E1FF2 /* Debug */,
+				46AC276E19A35441008E1FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46AC276F19A35441008E1FF2 /* Build configuration list for PBXNativeTarget "VFLToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46AC277019A35441008E1FF2 /* Debug */,
+				46AC277119A35441008E1FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46AC277219A35441008E1FF2 /* Build configuration list for PBXNativeTarget "VFLToolboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46AC277319A35441008E1FF2 /* Debug */,
+				46AC277419A35441008E1FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46AC275319A35441008E1FF2 /* Project object */;
+}
