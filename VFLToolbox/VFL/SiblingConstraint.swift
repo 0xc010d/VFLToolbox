@@ -22,10 +22,9 @@ public class SiblingConstraint : VFLConstraint {
     let predicate: Predicate
     let sourceAttribute: SiblingAttribute = .Trailing
     let targetAttribute: SiblingAttribute = .Leading
-    init(sibling: Sibling, view: UIView) {
+    init(sibling: Sibling, item: AnyObject) {
         predicate = sibling.predicate
-
-        super.init(target: view, source: sibling.view)
+        super.init(target: item, source: sibling.item)
     }
 
     override public func UIKitRepresentation(_ direction: Direction = .Horizontal) -> NSLayoutConstraint! {

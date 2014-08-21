@@ -7,7 +7,7 @@ class SiblingTests: XCTestCase {
     let view2 = UIView()
     let view3 = UIView()
     let view4 = UIView()
-    var views: Dictionary<String, UIView> = [:]
+    var views: [String : UIView] = [:]
     let superview = UIView()
     override func setUp() {
         superview.addSubview(view1)

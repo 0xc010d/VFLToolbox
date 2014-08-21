@@ -5,7 +5,7 @@ import VFLToolbox
 class SuperviewTests: XCTestCase {
     let view1 = UIView()
     let view2 = UIView()
-    var views: Dictionary<String, UIView> = [:]
+    var views: [String : UIView] = [:]
     let superview = UIView()
     override func setUp() {
         superview.addSubview(view1)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		463D210719A604DD00F2C149 /* LayoutGuidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463D210619A604DD00F2C149 /* LayoutGuidesTests.swift */; };
 		46AC27AA19A35652008E1FF2 /* Constantable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC279719A35652008E1FF2 /* Constantable.swift */; };
 		46AC27AB19A35652008E1FF2 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC279919A35652008E1FF2 /* Attribute.swift */; };
 		46AC27AC19A35652008E1FF2 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC279A19A35652008E1FF2 /* Constraint.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		463D210619A604DD00F2C149 /* LayoutGuidesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutGuidesTests.swift; sourceTree = "<group>"; };
 		46AC275C19A35441008E1FF2 /* VFLToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VFLToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46AC276019A35441008E1FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46AC276719A35441008E1FF2 /* VFLToolboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VFLToolboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,6 +189,7 @@
 				46AC27C519A356AD008E1FF2 /* SiblingTests.swift */,
 				46AC27C619A356AD008E1FF2 /* SubscriptTests.swift */,
 				46AC27C319A356AD008E1FF2 /* PartialTests.swift */,
+				463D210619A604DD00F2C149 /* LayoutGuidesTests.swift */,
 				46AC27C119A356AD008E1FF2 /* CommonCaseTests.swift */,
 				46AC27C219A356AD008E1FF2 /* Measurements.swift */,
 			);
@@ -327,6 +330,7 @@
 				46AC27D219A356AD008E1FF2 /* SuperviewTests.swift in Sources */,
 				46AC27C819A356AD008E1FF2 /* AssertConstraints.swift in Sources */,
 				46AC27CC19A356AD008E1FF2 /* CommonCaseTests.swift in Sources */,
+				463D210719A604DD00F2C149 /* LayoutGuidesTests.swift in Sources */,
 				46AC27CF19A356AD008E1FF2 /* PredicateTests.swift in Sources */,
 				46AC27CA19A356AD008E1FF2 /* ConstraintTests.swift in Sources */,
 				46AC27D019A356AD008E1FF2 /* SiblingTests.swift in Sources */,
@@ -517,6 +521,7 @@
 				46AC277119A35441008E1FF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46AC277219A35441008E1FF2 /* Build configuration list for PBXNativeTarget "VFLToolboxTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +530,7 @@
 				46AC277419A35441008E1FF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

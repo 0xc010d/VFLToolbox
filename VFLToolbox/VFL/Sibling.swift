@@ -2,10 +2,10 @@ import UIKit
 
 public class Sibling {
 
-    let view: UIView
+    let item: AnyObject
     let predicate: Predicate
-    init(view: UIView, predicate: Predicate = ==0) {
-        self.view = view
+    init(item: AnyObject, predicate: Predicate = ==0) {
+        self.item = item
         self.predicate = predicate
     }
 

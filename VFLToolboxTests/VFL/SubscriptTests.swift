@@ -7,7 +7,7 @@ class SubscriptTests: XCTestCase {
     let view2 = UIView()
     let view3 = UIView()
     let superview = UIView()
-    var views: Dictionary<String, UIView> = [:]
+    var views: [String : UIView] = [:]
     override func setUp() {
         superview.addSubview(view1)
         superview.addSubview(view2)

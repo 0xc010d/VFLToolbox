@@ -97,7 +97,8 @@ Surprisingly, __VFLToolbox__'s performance is quite good, it is comparable with 
 
 ### Roadmap
 
-* Layout guides usage as an item in the constraint (e.g. `view.top == topLayoutGuide + 15`)
+* Layout guides usage as an item in formula (e.g. `view.top == topLayoutGuide + 15`)
+* View width and height constraints (e.g. `[view2(==view1)]]`)
 * Standard constants support (e.g. `V:|-[view1]-[view2]-|`)
 * Multiple predicates support (e.g. `V:|-(>=5,<=8)-[view]|`)
 * OS X support
